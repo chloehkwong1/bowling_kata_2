@@ -1,5 +1,5 @@
 class Bowling
-    def bowling_game_score(roll)
-        roll
+    def bowling_frame(roll)
+        roll.sum
     end
 end
